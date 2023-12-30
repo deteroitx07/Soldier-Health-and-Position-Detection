@@ -4,7 +4,7 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 SoftwareSerial Gsm(7, 8);
-char phone_no[] = "+918698488473"; //replace with phone no. to get sms
+char phone_no[] = "XXXXXXXXXX"; //replace with phone no. to get sms
 
 TinyGPS gps;  //Creates a new instance of the TinyGPS object
 int state; 
@@ -100,7 +100,7 @@ int ldrStatus = analogRead(ldrPin);// Storing value in Degree Celsius
      lcd.print("To Base....");
      delay(3000);
     
-    Gsm.println("Yadnesh ,Battalion No. 9833456 ");
+    Gsm.println("SOLDIER1 ,Battalion No. 9833456 ");
      Gsm.print("Temperature is  ");
       Gsm.println(tempc);
 
@@ -141,7 +141,7 @@ int ldrStatus = analogRead(ldrPin);// Storing value in Degree Celsius
      lcd.print("To Base....");
      delay(3000);
     
-    Gsm.println("Alert I need help....Yadnesh ,Battalion No. 9833456 ");
+    Gsm.println("Alert I need help....SOLDIER1 ,Battalion No. 9833456 ");
      Gsm.print("Temperature is  ");
       Gsm.println(tempc);
 
