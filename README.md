@@ -5,13 +5,13 @@ The soldier Health and Position Tracking System allows military to track the cur
 Components Required
 
 
-1.GSM Module SIM900A.
+1. GSM Module SIM900A.
 
 2. Arduino UNO
 
 3. 16×2 LCD Display with I2C Module.
 
-4.NEO-6M GPS Module
+4. NEO-6M GPS Module
 
 5. 1x Push button. 
 
@@ -19,5 +19,7 @@ Components Required
 
 7. LM35 Temperature sensor.
 
-8.Bread Board
+8. Bread Board
+
+![image](https://github.com/deteroitx07/Soldier-Health-and-Position-Detection/assets/120337082/9e5e0798-ff54-4466-b918-49ddee8a3192)
 
